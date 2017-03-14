@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Lora", serif;
+	background-image: url("../images/undersea.jpg");
+	background-size: cover;
+	color:blue;
+}
+
+div.container{
+	width:60%;
+	background-image: url("../images/lightsea.jpeg");
+	background-size: cover;
+	border:solid lightblue;
+}
+
+div.title{
+	padding:20px;
+}
+
+p.choice{
+	padding-left: 40%;
+}
+
+div.time-remain{
+	font-size:20px;
+}
+
+div.question{
+	font-size:24px;
+}
+
+div.select-answer{
+	font-size:20px;
+}
+
+p.timeup, p.correct, p.incorrect, p.summary{
+	font-size:24px;
+}
+
+button{
+	margin-left:40%;
+	color:blue;
+	font-size:24px;
+}
+
+div.main{
+	margin-bottom:20px;
+}
+
+
+
